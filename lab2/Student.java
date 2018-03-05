@@ -9,7 +9,7 @@
 * +toString(): String                            *
 *************************************************/
 
-package lab2;
+//package lab2;
 
 public class Student extends Person {
 	
