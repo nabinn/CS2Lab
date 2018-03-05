@@ -16,7 +16,7 @@ Design a class named MyInteger. The class contains:
 - A static method parseInt(String) that converts a string into an int value.
  */
 
-package lab1;
+//package lab1;
 
 public class MyInteger {
 	// An int data field named value that stores the int value represented by this object
