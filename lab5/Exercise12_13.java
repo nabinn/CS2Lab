@@ -21,44 +21,45 @@ public class Exercise12_13 {
 		// filename is provided as first command line argument
 		String fileName = args[0];
 		File file = new File(fileName);
-		if (!file.exists()) {
-            System.out.println(file + " does not exist.");
-            System.exit(1);
-        }
 		
-	int numChars = 0; 
-        int numWords = 0; 
-        int numLines = 0;
+		if (!file.exists()) {
+            		System.out.println(file + " does not exist.");
+           	 	System.exit(1);
+       		 }
+		
+		int numChars = 0; 
+		int numWords = 0; 
+		int numLines = 0;
 
-        try {
-        	
-            Scanner input = new Scanner(file);
-      
-            // while there is next line in the file
-            while (input.hasNextLine()) {
-            	//increment line count
-            	numLines++;
-            	
-            	// read the next line
-            	String line = input.nextLine();
-                
-            	// add line length to number of characters
-            	numChars += line.length();
-                
-                // split the line by space to count words
-                String[] wordArray = line.split(" ");
-                numWords += wordArray.length;
-            }
-            
-            input.close();
+		try {
 
-        } catch (FileNotFoundException ex) {
-            ex.printStackTrace();
-        }
-    
-        System.out.println("Number of Characters: " + numChars);
-        System.out.println("Number of Words: " + numWords);
-        System.out.println("Number of Lines: " + numLines);
+		    Scanner input = new Scanner(file);
+
+		    // while there is next line in the file
+		    while (input.hasNextLine()) {
+			//increment line count
+			numLines++;
+
+			// read the next line
+			String line = input.nextLine();
+
+			// add line length to number of characters
+			numChars += line.length();
+
+			// split the line by space to count words
+			String[] wordArray = line.split(" ");
+			numWords += wordArray.length;
+		    }
+
+		    input.close();
+
+		} catch (FileNotFoundException ex) {
+		    ex.printStackTrace();
+		}
+
+		System.out.println("Number of Characters: " + numChars);
+		System.out.println("Number of Words: " + numWords);
+		System.out.println("Number of Lines: " + numLines);
 
 
     }
