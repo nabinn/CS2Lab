@@ -26,7 +26,7 @@ public class Exercise12_13 {
             System.exit(1);
         }
 		
-		int numChars = 0; 
+	int numChars = 0; 
         int numWords = 0; 
         int numLines = 0;
 
