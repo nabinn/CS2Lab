@@ -13,18 +13,16 @@ public class TestProgram {
 		*/
 		
 		
-		Person person1 = new Person("Martin", "771 Virginia St.", 
-									"martin@gmail.com", "3652278815");
+		Person person1 = new Person("Martin", "771 Virginia St.", "martin@gmail.com", "3652278815");
 		System.out.println(person1); 
 		
 		
-		Person student1 = new Student("Adam", "601 Adam St.","adam@gmail.com", 
-										"1234567890", "freshman");
+		Person student1 = new Student("Adam", "601 Adam St.","adam@gmail.com", "1234567890", "freshman");
 		System.out.println(student1); 
 		
 	
 		Person employee1 = new Employee("Brian", "601 Adam St.", "brian@gmail.com", 
-										"1984567890", "office1", 9000, new MyDate(2018, 02, 25));
+						"1984567890", "office1", 9000, new MyDate(2018, 02, 25));
 		System.out.println(employee1); 
 		
 		
