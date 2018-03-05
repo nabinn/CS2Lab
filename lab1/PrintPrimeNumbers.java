@@ -2,7 +2,7 @@
  * Write a program that displays all the prime numbers less than 120 in decreasing order.
  */
 
-package lab1;
+//package lab1;
 
 public class PrintPrimeNumbers {
 	
