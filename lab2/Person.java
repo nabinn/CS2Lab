@@ -18,7 +18,7 @@
 * +setEmail(email: String): void         *
 * +toString(): String                    *
 *****************************************/
-package lab2;
+//package lab2;
 
 public class Person {
 	private String name;
