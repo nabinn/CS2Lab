@@ -12,7 +12,7 @@ public class RandomIntegers {
 	
 	public static void main(String[] args) {
 	
-		// creating an array to hold 100 integers 
+	    // creating an array to hold 100 integers 
 	    int[] arrayOfIntegers = new int[100];
 	    
 	    // populate the array with random integers between 0 and 999
@@ -35,7 +35,7 @@ public class RandomIntegers {
 	        System.out.println("Invalid index value");
 	    }
 	    
-		input.close();
+	    input.close();
 	}
 
 }
