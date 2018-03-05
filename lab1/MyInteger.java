@@ -73,15 +73,15 @@ public class MyInteger {
 		if (num < 2) return false;
 		
 		// 2 is a prime number
-        if (num == 2) return true;
-        
-        // even numbers are not prime (except 2)
-        if (num % 2 == 0) return false;
-        
-        for (int i = 3; i * i <= num; i += 2)
-            if (num % i == 0) return false;
-        
-        return true;
+		if (num == 2) return true;
+
+		// even numbers are not prime (except 2)
+		if (num % 2 == 0) return false;
+
+		for (int i = 3; i * i <= num; i += 2)
+		    if (num % i == 0) return false;
+
+		return true;
 	}
 
 	
