@@ -1,4 +1,4 @@
-package lab1;
+//package lab1;
 
 // Tests MyInteger class and its methods
 public class TestMyInteger {
