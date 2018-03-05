@@ -2,15 +2,15 @@
 *                      Faculty                            *
 *---------------------------------------------------------*
 * -officeHours: int                                       *
-* -rank: String                                           *
+* -rank: int                                              *
 *---------------------------------------------------------*
 * +Faculty(name: String, address: String, phone: String,  *
 *  email: String, office: int, salary: double,            *
-*  officeHours: int, rank: String)     					  *
+*  officeHours: int, rank: int)     		          *
 * +getOfficeHours(): int                                  *
 * +setOfficeHours(officeHours: int): void                 *
-* +getRank(): String                                      *
-* +setRank(rank: String): void                            *
+* +getRank(): int                                         *
+* +setRank(rank: int): void                               *
 * +toString(): String                                     *
 **********************************************************/
 
