@@ -10,7 +10,7 @@
 * +toString(): String                                                 *
 **********************************************************************/
 
-package lab2;
+//package lab2;
 
 public class Staff extends Employee {
 	private String title;
