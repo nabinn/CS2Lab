@@ -14,7 +14,7 @@
 * +toString(): String                                     *
 **********************************************************/
 
-package lab2;
+//package lab2;
 
 public class Faculty extends Employee {
 	private int officeHours;
