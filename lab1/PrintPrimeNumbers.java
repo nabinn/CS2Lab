@@ -12,15 +12,15 @@ public class PrintPrimeNumbers {
 		if (number < 2) return false;
 		
 		// 2 is a prime number
-        if (number == 2) return true;
-        
-        // even numbers are not prime (except 2)
-        if (number % 2 == 0) return false;
-        
-        for (int i = 3; i * i <= number; i += 2)
-            if (number % i == 0) return false;
-        
-        return true;
+		if (number == 2) return true;
+
+		// even numbers are not prime (except 2)
+		if (number % 2 == 0) return false;
+
+		for (int i = 3; i * i <= number; i += 2)
+		    if (number % i == 0) return false;
+
+		return true;
 	}
 
 	
