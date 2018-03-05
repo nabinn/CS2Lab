@@ -18,7 +18,7 @@
 *******************************************************************/
 
 
-package lab2;
+//package lab2;
 
 public class Employee extends Person {
 	private String office;
