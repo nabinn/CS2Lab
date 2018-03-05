@@ -1,4 +1,4 @@
-package lab5;
+//package lab5;
 
 /**
  Write a program that will count the number of characters, words, and lines
