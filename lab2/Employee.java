@@ -6,8 +6,8 @@
 * -dateHired: MyDate                                               *
 *------------------------------------------------------------------*
 * +Employee(name: String, address: String, phone: String,          *
-* 					email: String, office: String,                 *  
-* 					salary: double, dateHired: MyDate)  		   *
+* 		    email: String, office: String,                 *  
+* 		salary: double, dateHired: MyDate)  		   *
 * +getOffice(): String                                             *
 * +getSalary(): double                                             *
 * +getDateHired(): MyDate                                          *
