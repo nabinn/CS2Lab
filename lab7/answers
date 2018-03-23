@@ -1,0 +1,13 @@
+14.25 - How do you get the column and row index of a node in a GridPane? 
+How do you reposition a node in a GridPane?
+Answer:
+	To get the row and column index use pane.getRowIndex(node) and pane.getColumnIndex(node). 
+	To reposition a node in a GridPane, use pane.setRowIndex(node, rowIndex) and pane.setColumnIndex(node, columnIndex).
+	
+	
+14.22-How do you add a node to a Pane, StackPane, FlowPane, GridPane, BorderPane, HBox, and VBox? 
+How do you remove a node from these panes?
+Answer:
+	To add a node to a Pane, StackPane, FlowPane, HBox, and VBox, use pane.getChildren().add(node). 
+	To add node to a BorderPane, use the setTop, setBottom, setLeft, setRight, and setCenter methods. 
+	To remove a node from these panes, use pane.getChildren().remove(node).
