@@ -25,11 +25,6 @@ Answer:
 	Test constructor is invoked
 	start method is invoked
 
-
-
-
-
-
 14.25 - How do you get the column and row index of a node in a GridPane? 
 How do you reposition a node in a GridPane?
 Answer:
