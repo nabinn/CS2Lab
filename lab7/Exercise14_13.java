@@ -1,4 +1,4 @@
-package lab7;
+//package lab7;
 
 /*********************************************************************************
  * 14.13 (Display a pie chart) Write a program that uses a pie chart to display 
