@@ -1,0 +1,20 @@
+17.17 What is wrong in the following code?
+import java.io.*;
+public class Review {
+  public static void main(String[] args) {
+    try (
+      FileInputStream fis = new FileInputStream("test.dat"); ) {
+    }
+    catch (IOException ex) {
+      ex.printStackTrace();
+    }
+    catch (FileNotFoundException ex) {
+      ex.printStackTrace();
+    }
+  }
+}
+
+Answer:
+The catch block for FileNotFoundException is unreachable. It is already handled by the catch block for IOException.
+Since java.io.FileNotFoundException is a subclass of IOException, the catch clause for java.io.FileNotFoundException 
+should be put before the catch clause for java.io.IOException.
