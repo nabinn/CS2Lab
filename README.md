@@ -4,5 +4,5 @@ This repository contains solutions for CS2 lab problems.
 Lamar University, 
 Spring 2018 Semester.
 
---
+---
 Author: Nabin Sharma Rijal
