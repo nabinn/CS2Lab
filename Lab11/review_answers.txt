@@ -1,0 +1,27 @@
+18.4.2
+For the isPalindrome method in Listing 18.3, what are the base cases? How many times is this method called when invoking isPalindrome("abdxcxdba")?
+
+Answer: 
+The base cases are 
+	(1) s.length() <= 1 and 
+	(2) s.charAt(0) != s.charAt(s.length - 1) 
+
+When invoking isPalindrome("abdxcxdba"), the isPalindrome method is called 5 times.
+
+
+18.6.3
+How many times will the getSize method be invoked for a directory if the directory has three subdirectories and each subdirectory has four files?
+
+Answer: 
+1+3=4 times for the directories and 
+3 * 4 times for all the files. 
+So, the total is 16.
+
+
+18.6.6
+Will the program work if lines 20-21 is replaced by the following code?
+for (File file: files) 
+  size += getSize(file); // Recursive call
+
+Answer:
+No. files may be null.
