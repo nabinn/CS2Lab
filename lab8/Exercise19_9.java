@@ -34,12 +34,11 @@ public class Exercise19_9 {
 		lst.add(0);
 		lst.add(-3);
 		lst.add(20);
-		
-		sort(lst);
-		
+		// before sorting
 		System.out.println(lst);
-		
-
+		sort(lst);
+		//after sorting
+		System.out.println(lst);
 	}
 
 }
